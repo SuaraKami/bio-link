@@ -448,7 +448,7 @@ button:hover,
 /* Post.news */
 .button.button-post-news {
   color: #ffffff;
-    background-color: #678BFF;
+  background-color: #678BFF;
 }
 .button.button-post-news:hover,
 .button.button-post-news:focus {
@@ -739,5 +739,15 @@ button:hover,
 }
 .button.button-yt:hover,
 .button.button-yt:focus {
+  filter: brightness(90%);
+}
+
+/* Unsplash */
+.button.button-unsplash {
+  color: #000000;
+  background-color: #ffffff;
+}
+.button.button-unsplash:hover,
+.button.button-unsplash:focus {
   filter: brightness(90%);
 }
